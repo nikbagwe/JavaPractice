@@ -75,5 +75,7 @@ public class ArrayListPractice {
         //once that is also full i.e. PC = 15
         //LF = 15/2 = 7.5 = 7
         // now VC = 15+7 = 22 and pc = 15
+
+        //code pushed
     }
 }
