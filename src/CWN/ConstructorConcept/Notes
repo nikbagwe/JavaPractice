@@ -1,0 +1,13 @@
+
+
+Method ->
+Business Logic (re-usability)
+it can return value
+
+
+Constructor ->
+Restricting of Object Creation
+To initialize class variable with initial value
+can not return any value
+No void can be used.
+name should be same as ClassName
