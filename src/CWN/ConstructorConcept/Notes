@@ -1,9 +1,9 @@
-
+JAVA Notes:
 
 Method ->
 Business Logic (re-usability)
 it can return value
-
+----------------------------------------------------------
 
 Constructor ->
 Restricting of Object Creation
@@ -11,3 +11,31 @@ To initialize class variable with initial value
 can not return any value
 No void can be used.
 name should be same as ClassName
+
+----------------------------------------------------------
+
+Static method-> calling by ClassName
+Non Static -> call by object name
+constructor -> when we create the object
+
+----------------------------------------------------------
+
+Encapsulation
+
+'this' keyword can be used in methods as well.
+Encapsulation is the concept of bundling data (variables) and methods (functions) that operate on the data
+into a single unit, typically a class. In Java, encapsulation is implemented by making class variables private
+to restrict direct access and providing public getters and setters to access and modify these private variables.
+
+This approach ensures that private data is accessed and modified only through a controlled public interface,
+enforcing data hiding and better control over the behavior of the class.
+
+
+-Encapsulation means accessing the private properties(variables) of class from another class using the getter and setter method
+-Getter and setter are always public methods
+-Instead of setter we can also initialize the private variable values using parameterized constructor but
+to update the values of private variables we would need setter method anyways.
+
+
+Inheritance:
+

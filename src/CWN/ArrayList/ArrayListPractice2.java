@@ -1,4 +1,4 @@
-package CWN;
+package CWN.ArrayList;
 
 import java.util.ArrayList;
 import java.util.Arrays;
