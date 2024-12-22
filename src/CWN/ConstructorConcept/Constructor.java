@@ -1,4 +1,4 @@
-package CWN;
+package CWN.ConstructorConcept;
 
 public class Constructor {
 
