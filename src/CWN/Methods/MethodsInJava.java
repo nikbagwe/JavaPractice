@@ -1,4 +1,4 @@
-package CWN;
+package CWN.Methods;
 
 public class MethodsInJava {
     /*

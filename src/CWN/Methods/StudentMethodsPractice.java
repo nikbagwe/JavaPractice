@@ -1,4 +1,4 @@
-package CWN;
+package CWN.Methods;
 
 public class StudentMethodsPractice {
     // WAF create a method -> get student marks

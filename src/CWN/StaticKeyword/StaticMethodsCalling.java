@@ -1,4 +1,4 @@
-package CWN;
+package CWN.StaticKeyword;
 
 //1. Non-Static method -> Calling -> Non-Static method => No need to create Object as all the methods are in the same
 // object

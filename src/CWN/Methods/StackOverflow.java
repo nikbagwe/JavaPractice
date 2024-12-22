@@ -1,4 +1,4 @@
-package CWN;
+package CWN.Methods;
 
 //example of method chaining
 

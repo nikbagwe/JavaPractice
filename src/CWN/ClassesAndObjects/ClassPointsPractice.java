@@ -1,4 +1,4 @@
-package CWN;
+package CWN.ClassesAndObjects;
 
 public class ClassPointsPractice {
     int id;

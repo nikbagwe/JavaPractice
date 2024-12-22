@@ -1,4 +1,4 @@
-package CWN;
+package CWN.StaticKeyword;
 
 public class EmpAssignmentStatic {
     String name;

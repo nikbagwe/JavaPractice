@@ -1,4 +1,4 @@
-package CWN;
+package CWN.ClassesAndObjects;
 
 public class UserClass {
     String name; // do not assign value here otherwise all the object created will have default value given here
