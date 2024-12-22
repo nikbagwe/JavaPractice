@@ -32,6 +32,7 @@ enforcing data hiding and better control over the behavior of the class.
 
 
 -Encapsulation means accessing the private properties(variables) of class from another class using the getter and setter method
+
 -Getter and setter are always public methods
 -Instead of setter we can also initialize the private variable values using parameterized constructor but
 to update the values of private variables we would need setter method anyways.
@@ -39,3 +40,45 @@ to update the values of private variables we would need setter method anyways.
 
 Inheritance:
 
+isaRelation ---->  Inheritance.
+
+Method Overriding -> Run Time Polymorphism
+->When you have a method in parent class and same method in child class
+1. With the same name
+2. With the same number of parameter
+3. With the same sequence of parameters
+4. With the same return type
+
+Example
+
+Parent Class ->
+
+public Class Car {
+
+int wheels;
+double price;
+
+public void start()
+{
+System.out.println("Car Start");
+}
+
+Child class
+public class BMW extends Car {
+
+@Override // notation to show its overriden class , not compulsory bt good practice
+public void start()
+
+{
+System.out.println("BMW Start");
+}
+--------------------------------------------
+
+In Above example, car (parent class) And BMW(Child class) has same start() method. so its an override class
+as it has
+same name -> Start()
+same number of parameters -> 0 paramters passed
+same return type  -> void
+same sequence of params -> Not Applicable here
+
+so this is method overriding.
