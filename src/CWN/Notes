@@ -37,10 +37,11 @@ enforcing data hiding and better control over the behavior of the class.
 -Instead of setter we can also initialize the private variable values using parameterized constructor but
 to update the values of private variables we would need setter method anyways.
 
+---------------------------------------------------------------------------------------------
 
 Inheritance:
 
-isaRelation ---->  Inheritance.
+isaRelationship ---->  Inheritance.
 
 Method Overriding -> Run Time Polymorphism
 ->When you have a method in parent class and same method in child class
@@ -48,6 +49,10 @@ Method Overriding -> Run Time Polymorphism
 2. With the same number of parameter
 3. With the same sequence of parameters
 4. With the same return type
+
+use of method overriding
+it gives child class authority to override the parent method as per the requirement in child class
+
 
 Example
 
@@ -82,3 +87,30 @@ same return type  -> void
 same sequence of params -> Not Applicable here
 
 so this is method overriding.
+
+Multilevel inheritance is allowed till n levels
+Multiple inheritance is not allowed i.e. one child class can not have multiple parents
+One parent can have multiple child classes but one sibling can not access properties of its sibling
+
+Inheritance can be done only in Child to parent, grandparents and so on.
+
+-> Child class objects can be referred by parent class reference variable,
+this is called top casting or upcasting.
+
+Example
+BWM (child) -> Car (parent)
+
+Car c1 = new BMW();
+
+Object is of BMW, so all the methods of BMW will be given to object
+So when we call any method for c1 refernce variables it will call methods inherited and overriden methods
+in BMW objects. It can not access BMW individual methods.
+
+Reason:
+Java does reference type check, whenever we are doing the typecasting, it checks if its overridden or inherited from
+reference class in this case CAR class if reference type (Car c1)
+
+so if only BMW has autoparking() method which is individual method then it can not be accessed by object created by
+Car c1 = new BMW();
+
+it will only allow to access methods inherited or overriden from Car class.
