@@ -92,9 +92,14 @@ Multilevel inheritance is allowed till n levels
 Multiple inheritance is not allowed i.e. one child class can not have multiple parents
 One parent can have multiple child classes but one sibling can not access properties of its sibling
 
-Inheritance can be done only in Child to parent, grandparents and so on.
 
--> Child class objects can be referred by parent class reference variable,
+Use of Inheritance
+-> If any class A (parent) has already designed methods which can be reused by other classes(child classes)
+ as well then we can use inheritance.
+
+Inheritance can be done only in Child to parent, grandparents and so on.
+-----------------------------------------------------------------------------------------
+-> Child class objects can be referred by parent(grand parent and so on) class reference variable,
 this is called top casting or upcasting.
 
 Example
