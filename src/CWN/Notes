@@ -50,7 +50,9 @@ Method Overriding -> Run Time Polymorphism
 3. With the same sequence of parameters
 4. With the same return type
 
-use of method overriding
+
+Very Imp******
+Use of method overriding
 it gives child class authority to override the parent method as per the requirement in child class
 
 
@@ -92,7 +94,7 @@ Multilevel inheritance is allowed till n levels
 Multiple inheritance is not allowed i.e. one child class can not have multiple parents
 One parent can have multiple child classes but one sibling can not access properties of its sibling
 
-
+Very Imp******
 Use of Inheritance
 -> If any class A (parent) has already designed methods which can be reused by other classes(child classes)
  as well then we can use inheritance.
