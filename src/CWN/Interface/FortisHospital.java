@@ -70,4 +70,22 @@ public class FortisHospital extends  Medical implements USMedical, UKMedical, In
         System.out.println("WHO ONE");
 
     }
+
+    // we can have static methods with body in Interface but it cant be overriden (we have static method)
+    //in US Medical interface and we are trying to override the same method here but cant be done as stati
+    //methods cant be overriden.
+    //hence commenting
+
+//    @Override
+//    public  static void billing(){
+//        System.out.println("FH Medical Billing");
+//    }
+
+    //2. We can have default methods with method body in interfaces but we cant use default word here in classes
+
+    public void medicalReport(){  //We have same method as default method in US Medical interface
+                                  // which is overidden here but using public method here
+        System.out.println("FH medical report");
+    }
+
 }

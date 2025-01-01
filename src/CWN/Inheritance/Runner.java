@@ -4,11 +4,15 @@ public class Runner {
     public static void main(String[] args) {
         BMW b1 = new BMW();
         b1.start();
+        //b1.pickColor();
+        // as it is private method it cant be in both child and parent class
+        //start () method even if remove override from BMW method it will call bmw start() first as its a
+        //individual else it will call car start();
 
         //top casting OR upcasting
         //reference type check
         Car c1 = new BMW();
-        c1.autoparking(); // it is calling car class method though BMW has same method
+        c1.autoparking(); // it is calling BMW class method though Car has same method
 
         // I have added  autoparking() in car class as well for check else if its individual method of BMW
         //it cant be accessed by car class reference variable.
@@ -23,14 +27,17 @@ public class Runner {
         Car c1 = new BMW();
 
         Object is of BMW, so all the methods of BMW will be given to object
-        So when we call any method for c1 refernce variables it will call methods inherited and overriden methods
-        in BMW objects. It can not access BMW individual methods.
+        So when we call any method for c1 reference variables, it will call methods inherited and overriden
+        methods in BMW objects. It can not access BMW individual methods.
 
-                Reason:
-        Java does reference type check, whenever we are doing the typecasting, it checks if its overridden or inherited from
-        reference class in this case CAR class if reference type (Car c1)
+        Reason:
 
-        so if only BMW has autoparking() method which is individual method then it can not be accessed by object created by
+        Java does reference type check, whenever we are doing the typecasting, it checks if its overridden
+        or inherited from reference class in this case CAR class is reference type (Car c1)
+
+        so if only BMW has autoparking() method which is individual method then it can not be accessed
+        by object created by
+
         Car c1 = new BMW();
 
         it will only allow to access methods inherited or overriden from Car class.*/
@@ -41,7 +48,7 @@ public class Runner {
 
         // BMW b5 = new Car();    -> this line is giving error
 
-        //BMW b5 = (BMW)new Car(); // No error on compile time but it will give run time classcast exception.
+        //BMW b5 = (BMW)new Car(); // No error on compile time, but it will give run time classcast exception.
 
 
 

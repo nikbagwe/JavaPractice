@@ -20,6 +20,8 @@ public class TestHospital {
 
         //topcasting -> Child class object can be referred by parent interface reference variable.
 
+        fh1.medicalReport();
+        USMedical.billing(); // calling static methods directly by interface name.
         UKMedical uk1= new FortisHospital();
 
         uk1.UK1(); // overridden from UK Medical
@@ -32,6 +34,10 @@ public class TestHospital {
         //Downcasting is not allowed in interfaces as we cant create objects for Interfaces
 
 
+        //variables calling from interface (final and Static variables by default if declared in interface)
+        System.out.println(USMedical.min_fee);
+       //   USMedical.min_fee = USMedical.min_fee +200;
+        //  value cant be changed as its a final variables by default
 
     }
 }
