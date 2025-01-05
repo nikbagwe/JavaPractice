@@ -1,4 +1,4 @@
-package CWN;
+package CWN.PracticePrograms;
 
 import javax.script.ScriptEngine;
 import java.util.Scanner;

@@ -1,6 +1,6 @@
-package CWN;
+package CWN.Loops;
 
-public class WhileLoops {
+public class WhileLoop {
     public static void main(String[] args) {
         System.out.println(1);
 

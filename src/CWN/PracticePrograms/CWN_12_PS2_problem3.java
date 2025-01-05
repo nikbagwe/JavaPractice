@@ -1,4 +1,4 @@
-package CWN;
+package CWN.PracticePrograms;
 
 import java.util.Scanner;
 

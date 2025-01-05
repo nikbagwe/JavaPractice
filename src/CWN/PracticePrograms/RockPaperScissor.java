@@ -1,4 +1,4 @@
-package CWN;
+package CWN.PracticePrograms;
 
 public class RockPaperScissor {
 }

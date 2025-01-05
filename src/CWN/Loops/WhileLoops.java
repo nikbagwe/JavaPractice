@@ -1,3 +1,5 @@
+package CWN.Loops;
+
 import java.util.Scanner;
 
 public class WhileLoops {

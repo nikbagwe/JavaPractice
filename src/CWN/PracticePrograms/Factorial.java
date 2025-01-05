@@ -1,3 +1,5 @@
+package CWN.PracticePrograms;
+
 import java.sql.SQLOutput;
 import java.util.Scanner;
 

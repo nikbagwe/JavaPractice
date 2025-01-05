@@ -1,3 +1,5 @@
+package CWN.PracticePrograms;
+
 import java.util.Scanner;
 
 public class Fibo {

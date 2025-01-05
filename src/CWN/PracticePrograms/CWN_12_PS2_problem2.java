@@ -1,4 +1,4 @@
-package CWN;
+package CWN.PracticePrograms;
 
 public class CWN_12_PS2_problem2 {
     public static void main(String[] args) {
